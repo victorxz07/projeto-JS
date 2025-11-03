@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #4CAF50, #8BC34A); /* Novo gradiente verde */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.98);
+    padding: 40px 60px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 90%;
+}
+
+h1 {
+    color: #388E3C; /* Verde escuro */
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+p {
+    color: #555;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.game-info {
+    margin-top: 20px;
+    padding: 15px;
+    border-top: 1px solid #eee;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.game-info span {
+    color: #333;
+    margin-left: 5px;
+}
